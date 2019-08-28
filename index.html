@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title>MORPION</title>
+</head>
+<body  onload="init();">
+	<div id="game">
+		<table id="caseofgame">
+			<tr>
+	            <td class="square" id="zone1" onclick="play('zone1')">&nbsp;</td>
+	            <td class="square" id="zone2" onclick="play('zone2')">&nbsp;&nbsp;</td>
+	            <td class="square" id="zone3" onclick="play('zone3')">&nbsp;&nbsp;&nbsp;</td>
+	        </tr>
+	        <tr>
+	            <td class="square" id="zone4" onclick="play('zone4')">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	            <td class="square" id="zone5" onclick="play('zone5')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	            <td class="square" id="zone6" onclick="play('zone6')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	        </tr>
+	        <tr>
+	            <td class="square" id="zone7" onclick="play('zone7')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	            <td class="square" id="zone8" onclick="play('zone8')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	            <td class="square" id="zone9" onclick="play('zone9')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	        </tr>
+		</table>
+	</div>
+	<div id="replay">
+		<button type="button" class="bouton" onclick="init();"> Rejouer </button>
+	</div>
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

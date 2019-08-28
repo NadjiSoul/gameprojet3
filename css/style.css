@@ -1,0 +1,102 @@
+table {
+            border-collapse: collapse;
+        }
+
+        .square {
+            width: 150px;
+            height: 150px;
+        }
+
+        #title {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            text-align: center;
+            width: 100%;
+            display: block;
+            font-family: 'Lobster', cursive;
+            font-size: 80px;
+            padding-top: 20px;
+            color: black;
+        }
+
+        #zone1 {
+            border-right: solid 10px black;
+            border-bottom: solid 10px black;
+        }
+
+        #zone2 {
+            border-right: solid 10px black;
+            border-bottom: solid 10px black;
+            border-left: solid 10px black;
+            background-position: center; /* ligne à supprimer */
+        }
+
+        #zone3 {
+            border-bottom: solid 10px black;
+            border-left: solid 10px black;
+            background-position: right; /* ligne à supprimer */
+        }
+
+        #zone4 {
+            border-right: solid 10px black;
+            border-bottom: solid 10px black;
+            border-top: solid 10px black;
+        }
+
+        #zone5 {
+            border: solid 10px black;
+
+        }
+
+        #zone6{
+            border-left: solid 10px black;
+            border-bottom: solid 10px black;
+            border-top: solid 10px black;
+        }
+
+        #zone7 {
+            border-right: solid 10px black;
+            border-top: solid 10px black;
+        }
+
+        #zone8 {
+            border-right: solid 10px black;
+            border-left: solid 10px black;
+            border-top: solid 10px black;
+
+        }
+
+        #zone9 {
+            border-left: solid 10px black;
+            border-top: solid 10px black;
+        }
+
+        .game {
+            margin-top: 200px;
+            text-align: center;
+        }
+
+        #caseofgame {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #replay {
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            text-align: center;
+            width: 100%;
+            display: block;
+        }
+
+        .bouton {
+            margin-bottom: 20px;
+            padding: 20px;
+            font-family: 'Lobster', cursive;
+            font-size: 80px;
+            background-color: #C3C2C2;
+            border-radius: 20px;
+            border: none;
+        }
